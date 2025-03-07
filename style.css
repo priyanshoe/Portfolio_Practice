@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: #111111;
+    color: #fff;
+}
+
+
+/* PAGE 1 */
+.page1{
+    font-family:Moranga ;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    padding-left: 2vw;
+    h1{
+        font-size: 2.5vw;
+    }
+}
+.arrow{
+    font-size: 2.5vw;
+    border: 3px solid;
+    border-radius: 50px;
+    padding: 1vw;
+}
+.nav_elem{
+    padding-right: 2vw;
+
+    button{
+        font-size: 1vw;
+        font-weight: 700;
+        padding: 1vw 2vw;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #3DD0F2;
+    }
+}
+
+.title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 4.7vw;
+    }
+}
+
+.image_container{
+    height: 69%;
+    width: 60%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+/* STRIPE */
+.stripe{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #111111;
+
+    h1{
+        font-size: 5.5vw;
+        white-space: nowrap;
+    }
+}
+
+
+/* /PAGE 2 */
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        margin-top: 10vh;
+        font-size: 4vw;
+        font-weight: 600;
+        font-family: Moranga;
+        text-align: center;
+        padding: 0 10vw ;
+    }
+
+}
+
+.links{
+
+    height: 100%;
+    width: 30%;
+    background-color: #3DD0F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button{
+        font-size: 2vw;
+        font-family: Moranga;
+        padding: .5vw 2vw;
+        border: none;
+        border-radius: 50px;
+    }
+}
