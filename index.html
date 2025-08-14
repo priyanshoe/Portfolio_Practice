@@ -5,49 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body>
     <div class="main">
-        <!-- PAGE 1 -->
+        <!-- Main nav fixed -->
+        <div class="nav">
+            <h1>Priyanshu Rahate</h1>
+            <button class="scroll_btn"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="resume_btn">get my resume</button>
+        </div>
+
+        <!-- Page1 200vh -->
         <div class="page1">
 
-            <div class="nav">
-                <div class="text"><h1>Priyansh<br>Rahate</h1></div>
-                <div class="arrow"><i class="fa-solid fa-arrow-left"></i></div>
-                <div class="nav_elem"><button>get my resume</button></div>
-            </div>
-
-            <div class="title">
+            <!-- Main heading and Image -->
+            <div class="content1">
                 <h1>Who the fuck is</h1>
-            </div>
-
-            <div class="image_container">
-                <img src="https://images.unsplash.com/photo-1536303158031-c868b371399f?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Model Image" srcset="">
-
-            </div>
-
-        </div>
-        <!-- STRIPE -->
-            <div class="stripe">
-                <h1>Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? Priyansh Rahate ? </h1>
-            </div>
-        <!-- PAGE 2 -->
-            <div class="page2">
-                <p> Hi!<br>
-                    I'm Sarthak, a full stack web developer and a freelance UI/UX designer.<br>
-                    I've been a part of Sheryians for 2 years and taught more than 500+ students full-stack web development, As a web developer, my best work is Sheryians's website which is a course-selling website similar to awwwards or udemy. Along with that I've also created more than 50+ websites for my clients in Bhopal.
-                </p>
-                <div class="links">
-                    <button>Say Hi</button>
-                    <button>Git Repo</button>
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1536303158031-c868b371399f?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Model Image" srcset="">
                 </div>
             </div>
-    </div>
+            
+            <!-- Stripe with ScrollTrigger -->
+            <div class="stripe">
+                <h1>Priyanshu Rahate ? Priyanshu Rahate ? Priyanshu Rahate ? Priyanshu Rahate ? Priyanshu Rahate ? Priyanshu Rahate ? Priyanshu Rahate ? Priyanshu Rahate ? </h1>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <!-- about -->
+            <div class="about">
+                <p class="para1">
+                    Hi!<br>
+                    I'm Priyansh, a full stack web developer and a freelance UI/UX designer.
+                    I've been a part of Sheryians for 2 years and taught more than 500+ students full-stack web development,
+                </p>
+                <p class="para2">
+                    As a web developer, my best work is Sheryians's website which is a course-selling website similar to awwwards or udemy.
+                    Along with that I've also created more than 50+ websites for my clients in Bhopal.
+                </p>
+            </div>
+
+            <button>Say hi 🖐</button>
+
+
+        </div>
+
+
+        <!-- page2 -->
+        <div class="page2">
+            <h1>Thins's I am <span>good</span> at</h1>
+            <h3>skills, interests, passion and hobbies</h3>
+            <div class="content2">
+                <h3>developement</h3>
+                <div class="element">
+                    <img src="https://saarthack.github.io/portfolio/images/React-icon.svg.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/java-logo-1.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/js-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/mongodb-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/node-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/mongodb-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/github-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/html-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/css-min.webp" alt="" srcset="">
+                </div>
+            </div>
+            <div class="content2">
+                <h3>designing</h3>
+                <div class="element">
+                    <img src="https://saarthack.github.io/portfolio/images/xd-min_1.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/ps-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/premierepro-min.png" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/illus.png" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/studio-min.webp" alt="" srcset="">
+                    <img src="https://saarthack.github.io/portfolio/images/figma-min.webp" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <!-- page3 -->
+        <div class="page3">
+            <h1 class="font_gilroy">watch my <span>more</span> art work.</h1>
+            <div class="box3">
+                <div class="white_stripe"></div>
+                <h3>2022</h3>
+                <h3 class="font_gilroy">Infos | connect the brands</h3>
+                <h3>Designing studio website</h3>
+            </div>
+            <div class="box3">
+                <div class="white_stripe"></div>
+                <h3>2022</h3>
+                <h3 class="font_gilroy">Lagunitas Home page</h3>
+                <h3>A Brewing Company</h3>
+            </div>
+            <div class="box3">
+                <div class="white_stripe"></div>
+                <h3>2021</h3>
+                <h3 class="font_gilroy">Tala | Fruit snack</h3>
+                <h3>Fruit snack Company</h3>
+            </div>
+            <div class="box3">
+                <div class="white_stripe"></div>
+                <h3>2022</h3>
+                <h3 class="font_gilroy">Chess Clock</h3>
+                <h3>Online Chess Clock</h3>
+            </div>
+            <div class="box3">
+                <div class="white_stripe"></div>
+                <h3>2022</h3>
+                <h3 class="font_gilroy">Sarthak TV</h3>
+                <h3>Similar to IMDB</h3>
+            </div>
+            <div class="box3">
+                <div class="white_stripe"></div>
+                <h3>2022</h3>
+                <h3 class="font_gilroy">This is Digital</h3>
+                <h3>Digital Agency</h3>
+            </div>
+            <div class="box3 border_bottom">
+                <div class="white_stripe"></div>
+                <h3>2021</h3>
+                <h3 class="font_gilroy">Atomic Health</h3>
+                <h3>Healthcare Company</h3>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
